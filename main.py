@@ -2,7 +2,7 @@ import os
 import time
 import hand
 import cv2
-import numpy as np
+# import numpy as np
 
 cap = cv2.VideoCapture(0)
 
@@ -58,6 +58,7 @@ while True:
     h, w, c = lst2[fingersCount - 1].shape
     frame[0:h, 0:w] = lst2[fingersCount - 1]
 
+    # # multiple cameras
     # width = int(cap.get(3))
     # height = int(cap.get(4))
     #

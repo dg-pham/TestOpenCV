@@ -2,4 +2,4 @@ Pipfile
 Pipfile.lock
 .idea
 Fingers
-
+__pycache__
